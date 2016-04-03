@@ -150,13 +150,13 @@
 
 /* Button CSS */
 .btn-outline {
-    color: #563d7c;
+    color: #0499fb;
     background-color: transparent;
-    border-color: #563d7c;
+    border-color: #0499fb;
 }
 
 .btn-outline:hover {
-    background-color: #563d7c;
+    background-color: #0499fb;
     color: white;
 }
 
