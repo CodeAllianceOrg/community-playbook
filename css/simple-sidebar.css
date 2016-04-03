@@ -20,6 +20,7 @@
 
 #sidebar-wrapper {
     z-index: 1000;
+    background-image:url("photo.jpg")!important;
     position: fixed;
     left: 250px;
     width: 0;
@@ -50,6 +51,7 @@
 
 .main-nav {
     position: absolute;
+    background-color:white;
     top: 0;
     margin: 0;
     padding: 0;
