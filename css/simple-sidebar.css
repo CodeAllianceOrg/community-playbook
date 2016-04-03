@@ -62,9 +62,11 @@
     display: inline;
     float:left;
     display:block;
-    padding:8px;
-    font-size:9px;
-    line-height:3.5em;
+    font-size: 12px;
+    line-height: 3.1em;
+    font-weight: bold;
+    padding: 5px;
+    margin:1px 10px;
 }
 
 /* Sidebar Styles */
