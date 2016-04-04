@@ -165,7 +165,6 @@
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 667px) { 
-    .main-nav > li {
-        opacity:0;
-}   
-
+    .main-nav > li { opacity:0;} 
+    .main-nav > li.tog { opacity:1!important;}
+}
