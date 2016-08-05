@@ -93,14 +93,63 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <h1>Try This!</h1>
-		<p>On this page, we offer some basic tutorials on incorporating various open source Web technologies into your nonprofit's online presence.</p>
+		<p>Here are some basic tutorials on incorporating various open source Web technologies into your nonprofit's online presence.</p>
+		<div class="faceb"><a name="faceb"></a>
+			<h2>Try This #1: Create Your Own Facebook Application</h2>
+			<p>A Facebook application will allow you to connect to your constituents in a very special way, since it is most likely that a large portion of them regularly use the social media service. To learn how to create your Facebook app, you can watch the following video:</p>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/YP0ySvuqaO0" frameborder="0" allowfullscreen></iframe>
+		</div><br />
+		</div><hr style="border:1px solid #EEE;">
+		<div class="tweeter"><a name="tweeter"></a>
+			<h2>Try This #2: Embed a Twitter Widget On Your Website</h2>
+			<p>Embedding a Twitter widget on your website is a great way to enhance your online visibility, keep you connected to your social media-savvy constituents, and even attract new ones. There are several widgets you can choose from, but for this example, we'll show how to add an embedded Twitter timeline to your website. You can find these steps at <a href="https://support.twitter.com/articles/20170071#">this article on Twitter Support</a>.</p>
+			<ol>
+				<li>You will need to first sign in to your Twitter account.</li>
+				<li>Go to "settings" and select "Widgets."</li>
+				<li>Click "Create New."</li>
+				<li>Choose the type of embedded timeline you want to add and do the following:
+					<ul>
+						<li>For User Timeline, enter the Twitter username you want to display feeds for</li>
+						<li>For Favorites, enter the Twitter username you want to display favorites for</li>
+						<li>For List, choose a list you own or subscribe to from the drop-down menu</li>
+						<li>For Search, enter the search query you would like to display</li>
+						<li>To exclude profanity, sensitive content, etc, choose Safe Mode</li>
+					</ul>
+				</li>
+				<li>Configure the height, theme, link color, auto-expand toggle, and other settings for your widget</li>
+				<li>Click Create Widget</li>
+				<li>Copy and paste the HTML code that generates into your website</li>
+			</ol>
+			<p>For a full list of widgets available for use on your website, you can visit <a href="https://dev.twitter.com/web/overview">https://dev.twitter.com/web/overview</a>. Additionally, WordPress has plugins available for incorporating Twitter content into your WordPress site or blog, which you can find <a href="https://wordpress.org/plugins/search.php?q=Twitter">here</a>.</p>
+			<p>Here is an example of an embedded Twitter widget (taken from <a href="http://twitterforweb.com">twitterforweb.com</a>):</p>
+			<!-- BEGIN: Twitter website widget (http://twitterforweb.com) -->
+			<div style="width:236px;font-size:8px;text-align:right;">
+			<script type="text/javascript">
+				document.write(unescape("%3Cscript src='http://twitterforweb.com/twitterbox.js?username=webgadget&settings=1,1,3,236,550,f4f4f4,0,c4c4c4,101010,2,1,336699' type='text/javascript'%3E%3C/script%3E"));
+			</script>
+			Created by: <a href="http://twitterforweb.com" target="_blank">twitter website widget</a>
+			</div>
+			<!-- END: Twitter website widget (http://twitterforweb.com) -->
+			<p>And here is the associated HTML code (resize the box as much as you need):</p>
+			<textarea readonly>
+			<!-- BEGIN: Twitter website widget (http://twitterforweb.com) -->
+			<div style="width:236px;font-size:8px;text-align:right;">
+			<script type="text/javascript">
+				document.write(unescape("%3Cscript src='http://twitterforweb.com/twitterbox.js?username=webgadget&settings=1,1,3,236,550,f4f4f4,0,c4c4c4,101010,2,1,336699' type='text/javascript'%3E%3C/script%3E"));
+			</script>
+			Created by: <a href="http://twitterforweb.com" target="_blank">twitter website widget</a>
+			</div>
+			<!-- END: Twitter website widget (http://twitterforweb.com) -->
+			</textarea>
+			<p>You would obviously need to customize this to create a widget for your Twitter username. To learn more, visit <a href="http://twitterforweb.com">twitterforweb.com</a>.</p>
+		</div><hr style="border:1px solid #EEE;">
 		<div class="mamp"><a name="mamp"></a>
-			<h2>Try This #1: Create a MySQL Database Using MAMP</h2>
+			<h2>Try This #3: Create a MySQL Database Using MAMP</h2>
 			<p>MacOSX users can create MySQL databases for use with dynamic Web content using MAMP, a well-known platform stack software bundle for use with MacOSX. (MAMP stands for "MacOSX, Apache, MySQL, PHP/Perl/Python"). For a quick tutorial on MySQL database creation using MAMP, watch the following video:</p>
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/lHkjm52sJys" frameborder="0" allowfullscreen></iframe>
 		</div><hr style="border:1px solid #EEE;">
 		<div class="mysqlform"><a name="mysqlform"></a>
-			<h2>Try This #2:  Create an HTML Form To Submit Data to a MySQL Database</h2>
+			<h2>Try This #4:  Create an HTML Form To Submit Data to a MySQL Database</h2>
 			<p>For this tutorial, we're going to set up a basic MySQL database system where you can submit data using HTML/PHP.</p>
 			<p>You will need to install XAMPP, a free open source PHP development framework available for Windows, Linux, and MacOSX. I will be using XAMPP for Windows for the purposes of this tutorial. You can download and install XAMPP by going to <a href="https://www.apachefriends.org/index.html">https://www.apachefriends.org/index.html</a>.</p>
 			<p>We'll proceed with this tutorial under the assumption that you are using XAMPP 1.7.3, but installing and operating the software is very similar for all releases. Just make sure you have Apache, MySQL, PHP, and PHPAdmin installed at the very minimum.</p>
